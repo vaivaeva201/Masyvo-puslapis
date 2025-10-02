@@ -1,6 +1,8 @@
 body{
+
      font-family: 'Courier New';
-     font-size: 1.5em;
+     padding: min(5em 8%);
+     font-size: 1.5rem;
      background-color: rgb(183, 178, 248);
      color: black;
 }
@@ -10,7 +12,7 @@ body{
     border-radius: 20px;
     font-size: 0.8em;
     color: black;
-    margin-left: 15px;
+    margin-left: 1.5cm;
     margin-top: 10px;;
 }
 
@@ -19,7 +21,7 @@ body{
     border-radius: 20px;
     font-size: 0.8em;
     color: black;
-    margin-left:15px;
+    margin-left:1.5cm;
     margin-top: 10px;
 }
 
@@ -41,11 +43,15 @@ body{
     padding: 5px 25px;
     font-size: 0.8em;
     color: black;
-    margin: 25px 50px 75px 100px ;
+    margin-left: 1cm;
+    margin-top: 10px;
 }
 
 #grafikas{
-    margin: 25px 50px 75px 100px;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    max-width: 100%;
+    height: auto;
     
 }
 
@@ -55,7 +61,8 @@ body{
     padding: 5px 25px;
     font-size: 0.8em;
     color: black;
-    margin: 25px 50px 75px 100px ;
+    margin-left: 1.5cm;
+    margin-top: 10px;
 }
 
 #i3{
@@ -73,11 +80,13 @@ body{
 table{
     border-collapse: collapse;
     width: 100%;
+    margin-left: 1cm;
+    margin-top: 1cm;
 }
 
 th, td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #DDD;
   }
 
@@ -88,6 +97,6 @@ tr:hover {background-color: #9d95d8;}
     border-radius: 20px;
     font-size: 0.8em;
     color: black;
-    margin-left: 15px;
-    margin-top: 10px;;
+    margin-left:1.5cm;
+    margin-top: 10px;
 }
