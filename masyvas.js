@@ -9,7 +9,7 @@ let k;
 //NUSIPIRKTI BILIETA
 document.getElementById("b2").onclick = function(){
     k = parseInt(document.getElementById("i2").value);
-    b3.style.display = "inline-block";
+    b3.style.display = "inline-block"
 }
 
 let A = new Array(n);
