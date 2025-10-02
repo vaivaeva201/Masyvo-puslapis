@@ -9,29 +9,32 @@
 </head>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <body>
-    <h1 style="text-align: center;">Masyvo vizualizacija</h1>
-    <h4 style="text-align: center; color: rgb(85, 84, 84);"><i>Kompiuterių architektūros užduotis: B</i></h4>
-    <h6 style="text-align: center; color: rgb(85, 84, 84);"><i>Vaiva Evaltaitė</i></h6>
+    <div style="border: 2px solid black;
+    outline: 10px solid #9d95d8;
+    box-sizing: border-box;">
+        <h1 style="text-align: center;">Masyvo vizualizacija</h1>
+        <h4 style="text-align: center; color: rgb(85, 84, 84);"><i>Kompiuterių architektūros užduotis: B</i></h4>
+        <h6 style="text-align: center; color: rgb(85, 84, 84);"><i>Vaiva Evaltaitė</i></h6>
+    </div>
     <hr><br><br>
-    <label>Pasirinkite masyvo dydį:</label>
-    <input id="i1"> <br>
+    <label style="margin-left: 1cm;">Pasirinkite masyvo dydį:</label>
+    <input id="i1"> 
     <button id="b1">done</button>
     <br><br>
-    <label>Pasirinkite intervalo dydį (nuo 1 iki ...): </label>
-    <input id="i2"><br>
+    <label style="margin-left: 1cm;">Pasirinkite intervalo dydį (nuo 1 iki ...): </label>
+    <input id="i2">
     <button id="b2">done</button><br><br><br>
 
     <button id="b3" style="display:none">generuoti grafiką</button>
 
     <div id="grafikas" style="width:100%;max-width:700px"></div>
-    <label id="l1" style="display:none">Pasirinkite masyvo intervalą:</label>
+    <label id="l1" style="display:none; margin-left: 1cm; margin-top: 1cm;">Pasirinkite masyvo intervalą:</label>
     <br><br>
-    <label id="l2" style="display:none">nuo:</label>
+    <label id="l2" style="display:none; margin-left: 1cm;">nuo:</label>
     <input id="i3" style="display:none">
     <label id="l3" style="display:none">iki:</label>
     <input id="i4" style="display:none">
     <button id="b5" style="display:none">done</button>
-    <br><br>
     <button id="b4" style="display:none">generuoti lentelę</button>
 
     <table id="t1" style="display:none" align="center" width="800px">
